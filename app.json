@@ -1,23 +1,21 @@
 {
   "expo": {
-    "scheme": "acme",
-    "plugins": [
-      "expo-router"
-    ],
-    "name": "expo-router-mwe",
-    "slug": "expo-router-mwe",
-    "android": {
-      "package": "com.spiketren.exporoutermwe"
-    },
+    "name": "EmoGo",
+    "slug": "emogo-frontend-ru-lai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "owner": "rulai",
     "extra": {
-      "router": {},
       "eas": {
-        "projectId": "7918e76f-59e9-45c4-aae4-c99cec64cfac"
+        "projectId": "09edf815-2a13-4db2-aa66-cc9615c1071e"
       }
     },
-    "owner": "spiketren",
+    "android": {
+      "package": "com.rulai.emogofrontend"
+    },
     "ios": {
-      "bundleIdentifier": "com.spiketren.exporoutermwe",
+      "bundleIdentifier": "com.rulai.emogofrontend",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }

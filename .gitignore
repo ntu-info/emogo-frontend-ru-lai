@@ -1,0 +1,43 @@
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# @generated expo typos
+expo-env.d.ts
+
+# dependencies
+node_modules/
+
+# Expo CLI cache
+.expo-shared/
+
+# Build artifacts
+android/
+ios/
